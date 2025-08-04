@@ -296,7 +296,7 @@
                             if (Array.isArray(obj.material)) {
                                 obj.material.forEach(m => m.dispose());
                             } else {
-                                m.dispose();
+                                obj.material.dispose();
                             }
                          }
                     }
